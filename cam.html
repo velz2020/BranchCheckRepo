@@ -13,7 +13,13 @@
 
       function success(stream) {
         camera.src = stream;
-        camera.play();
+
+
+        //added some lines by sec user for script change log
+        //added some lines by sec user for script change log
+
+
+        camera.play();//test command by sec user
         disableButtons(true, false, false);
         //added some lines by sec user for script change log
         //added some lines by sec user for script change log
@@ -65,6 +71,6 @@
   <button id="stop">Stop</button>
   <button id="exit">Exit</button>
   <br />
-  <video id="camera"></video>
+  <video id="camera" onloading time></video>
 </body>
 </html>
